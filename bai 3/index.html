@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3 - buổi 3</title>
+</head>
+<body>
+    <marquee behavior="ảnh đây"></  marquee>
+    <h1>Bài 3</h1>
+    <p>bài tập thể dục</p>
+     <ol>
+        <li>thức dậy</li>
+        <li>đánh răng</li>
+        <li>đi học</li>
+       </ol>
+       <ul>
+        <li>Python</li>
+        <li>java</li>
+       </ul>
+       
+       <h1>Form</h1>
+       <form>
+            <div>
+                <b>Họ và tên:</b>
+                <input type="text" name="hoten" placeholder="Nhập tên vào đây"><!-- placeholder là chữ mờ -->
+            </div>
+            <div>
+                <b>Năm</b>
+                <input type="text" name="năm" value="2025" readonly><!-- readonly là không cho phép thay đổi thông tin đã cho mặc định -->
+            </div>
+        <br>
+        <div>
+            <b>Giới thiệu bản thân:</b><br>
+            <textarea name="giới thiệu bản thân" id="">Nhập giới thiệu</textarea>
+        </div>
+        <br><div>
+            <b>Email: </b><br>
+            <input type="email" name="email" placeholder="Dạng @gmail.com">
+        </div>
+        <br>
+        <div>
+            <b>số điện thoại</b><br>
+            <input type="số điện thoại"
+            type="tel" placeholder="dạng số: 1 -234 -567 -789"
+            required pattern="([0]{1}([0,3,9]{1})[0-9]{8})">
+        </div>
+        <br>
+        <div>
+            <b>giới tính</b><br><!-- được chọn 1 trong 2 -->
+            <input type="radio" name="gioitinh" value="nam"> Nam <br>
+            <input type="radio" name="gioitinh" value="nu"> Nữ <br>
+        </div>
+        <br>
+        <div>
+            <b>giới tính</b><br><!-- được chọn cả 2 -->
+            <input type="radio" name="gioitinh" value="nam"> Nam <br>
+            <input type="radio" name="gioitinh1" value="nu"> Nữ <br>
+        </div>
+        <br>
+        <div>
+            <b>Sở thích</b><br>
+            game: <input type="checkbox" name="sothich"value="game">
+            music: <input type="checkbox" name="sothich"value="music">
+        </div>
+        <br><!-- tùy chọn gợi ý -->
+        <div>
+            <b>trình duyệt ưa thích</b><br>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="chrome"></option>
+                <option value="cốc cốc"></option>
+                <option value="fire fox"></option>
+
+            </datalist>
+            <br><!-- buộc chọn các ô gợi ý -->
+            <div>
+                <select name="browsers" id="browsers">
+                    <option value="chrome">chrome</option>
+                    <option value="opera">opera</option>
+                </select>
+            </div>
+        </div>
+        <input type="range" value="80">200
+        <div>
+            <b>Tuổi</b><br>
+            <input type="number" name="tuoi" step="0.1">
+        </div>
+        <br>
+        <div>
+            <input type="datetime" name="giờ">
+
+        </div>
+        <div>
+            <input type="reset>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+       </form>
+       <video src=""></video>
+       <audio src=""></audio>
+</body>
+</html>
